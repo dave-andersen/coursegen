@@ -1,0 +1,26 @@
+Course web page software.
+Authors:  Dave Andersen, Nick Feamster
+
+This program generates the framework for the undergrad and grad networks
+courses that Dave and Nick teach.  It produces a syllabus from a simple
+text file describing the lectures, produces announcements and RSS feeds
+of the announcements, links to papers, etc.
+
+To use:
+
+look at one of the example directories.
+Type make
+Copy to your own course directory and adjust the COURSE=
+pointer in the makefile appropriately
+
+Edit lectures.txt
+Edit announcements.txt
+Edit class.bib
+Edit index.srhtml to customize the main page to your desires
+Edit syllabus.head and syllabus.tail to customize per your class
+ ** note:  Do not edit syllabus.srhtml or .html directly;  it will be
+    overwritten **
+make
+
+You can customize things more  by editing the other files.  Almost all
+stylistic things (presentation, layout, etc) are controlled by style.css

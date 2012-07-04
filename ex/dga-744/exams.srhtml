@@ -1,0 +1,7 @@
+<%= pagetop("15-744 Exams") %>
+
+<p>Midterm 1.  <a href="midterm2004_solutions.pdf">Sample exam from 2004</a></p>
+
+<p><a href="midterm_soln.pdf">Midterm 1 solutions</a>.</p>
+
+<%= pagebottom() %>

@@ -1,0 +1,166 @@
+# This file defines the lectures for the class.  The syllabus is
+# automatically generated from this file.
+
+# Date:  [Lecture type]
+#        blank:  normal lecture
+#        noclass [explanation text]
+#        exam    [exam name]
+# I:  Instructor   (overrides the global INSTRUCTOR)
+# T:  Title
+# S:  slides ref (looks in lectures/<name>.{ppt,pdf,ps,html}
+# V:  Video list (links to coursecast)
+# R:  Readings (copied verbatim)
+# N:  Notes (copied verbatim)
+# A:  Topic Area (generates a heading)
+# RB: BibTeX ref::URL
+
+CLASS: 'CS 7260: Internetworking Architectures and Protocols'
+CLASS_SHORT: CS7260
+SUMMARY: CS 7260
+YEAR:  2006
+TERM:  Spring
+INSTRUCTOR:  Nick Feamster
+LOCATION:  Howey (Physics) S107
+START_TIME: '15:05'
+END_TIME: '16:25'
+READINGBASE:  http://www.cc.gatech.edu/~feamster/classes/CS7260-SP06/papers
+SHOW_LECNUM: yes
+SHOW_INSTRUCTOR: no
+HIGHLIGHT_DUE: yes
+HEADSPAN: 5
+
+LECTURES:
+
+- 1/9:
+        T: Course Overview and Introduction
+        RB: Design::darpa-internet.pdf
+        N: <a href="http://www.planet-lab.org/">PlanetLab</a>, <a href="http://www.emulab.net/">EmuLab</a>
+
+- 'Internetworking: Addressing, Naming, Routing, and Forwarding'
+
+- 1/11:
+        T: 'Names: DNS'
+
+- 1/16:
+        type: noclass
+        T: School Holiday
+
+- 1/18:
+        T: 'Addresses: Allocation, Exhaustion, IPv6, and NAT'
+        N: PS1 Assigned
+
+- 1/23:
+        T: Bridges and Intradomain Routing
+        N: Project Groups Due
+        RB: OSPF-Monitor::http://www.usenix.org/events/nsdi04/tech/full_papers/shaikh/shaikh.pdf
+
+- 1/25:
+        T: Interdomain Routing
+        RB: Stability::http://www.cs.princeton.edu/%7Ejrex/papers/sigmetrics00.pdf
+        N: <a href="http://www.xorp.org/">XORP</a>, <a href="http://pdos.lcs.mit.edu/click/">Click</a>
+
+- 1/30:
+        T: 'Management: Fault Detection and Troubleshooting '
+        RB: rcc::http://www.usenix.org/events/nsdi05/tech/feamster.html
+
+- 2/1:
+        T: Multihoming and Source-Controlled Routing
+        N: PS1 Due
+
+- 2/6:
+        T: Routing Security
+        N: Project Proposals Due<br />PS2 Assigned
+        RB: Huston:BGPSec::http://www.potaroo.net/ispcol/2005-03/route-sec-2-ispcol.pdf
+
+- 2/8:
+        T: 'Measurement I: Routing and Forwarding'
+        N: <a href="http://www.routeviews.org/">Routeviews</a>, <a href="http://www.datapository.net/">Datapository</a><br /><a href="http://abilene.internet2.edu/observatory/data-collections.html">Abilene Observatory</a>
+
+- 2/13:
+        T: 'Measurement II: Traffic'
+
+- 2/15:
+        T: 'Routing Services: MPLS, VPNs'
+
+- 2/20:
+        T: Anomaly Detection and DoS Prevention
+        N: PS2 Due
+- 2/22:
+      type: exam
+      T: Quiz 1
+      N: PS3 Assigned
+
+- 'Above the Network Layer: Services, Applications, and Threats'
+
+- 2/27:
+        T: 'Voice and Video over Networks: Coding and Transport'
+
+- 3/1:
+        T: 'Spam, Botnets, and Worms'
+        N: <a href="http://www.mailavenger.org/">MailAvenger</a>
+
+- 3/6:
+        T: 'Routing Overlays: RON, SOSR'
+        N: PS3 Due
+        RB: RON::http://nms.lcs.mit.edu/papers/ron-sosp2001.pdf
+
+- 3/8:
+        T: 'Content Overlays: Chord, Bittorrent'
+
+- 3/13:
+        T: Privacy and Anonymity
+        RB: Infranet::http://www.usenix.org/publications/library/proceedings/sec02/feamster.html 
+
+- 3/15: 
+        T: 'Searching the Web: PageRank, Spamming and Defenses, etc.'
+
+- 3/20: 
+        type: noclass
+        T: Spring Break
+
+- 3/22:
+        type: noclass
+        T: Spring Break
+
+- 3/27:
+        type: presentations
+        T: Project Progress Mini-Presentations
+        N: Interim Report Due
+
+
+- 'Below the Network Layer: Wireless, Optics, etc.'
+
+- 3/29:
+        T: 'Router Design: IP Lookup, Switching, and Buffering'
+
+- 4/3:
+        T: Layer-2 and Optics
+
+- 4/5:
+        T: Network Coding
+
+- 4/10:
+        T: Wireless Networks I
+
+- 4/12:
+        T: Wireless Networks II
+
+- 4/17:
+      type: exam
+      T: Quiz 2
+
+- 4/19:
+      T: 'New Directions: Networking and Economics'
+
+- 4/24:
+      type: presentations
+      T: Project Presentations
+      
+- 4/26:
+      type: presentations
+      T: Project Presentations
+
+- 4/28:
+      type: presentations
+      T: <b>Project Writeups Due</b>
+      N: Due 5pm EST, 215 GCATT

@@ -1,0 +1,100 @@
+- 
+  D: 5/01
+  T: Projects due 05/14
+  C: Project writeups are due 05/14 to make sure we have a few days to grade them before CSD black friday.  Please disregard the earlier due date of 05/09.
+
+-
+  D: 4/16
+  T: Tools homework 2 update
+  C: If you haven't done part of of hw2 yet, we suggest pinging the host <tt>eep.lcs.mit.edu</tt> instead of <tt>www.cs.cmu.edu</tt>.  www.cs seems to have a per-host IP ID counter, so it worked in the tests we ran from a single machine, but doesn't work when pinging from two hosts.
+
+-
+  D: 4/9
+  T: Tools homework 2 online
+  C: The second tools homework is now online.  Note that scriptroute does not want to compile on andrew linux machines.  Use either your own or a CS linux machine if you have problems.
+
+- 
+  D: 4/1
+  T: Syllabus updated
+  C: The rest of the semester is filled in.
+
+-
+  D: 3/19
+  T: midterm and ps2 solutions
+  C: Midterm and problem set 2 solutions have been posted.
+     (If you have not already, you can pick up your HWs and midterms from
+     Jeff.)
+-
+  D: 3/18
+  T: scheduling project meetings
+  C: Please contact Barbara Gardillo, the course secretary, with the times your
+     group can meet <b>next</b> Wednesday (<tt>bag AT cs DOT cmu DOT edu</tt>).
+-
+  D: 2/26
+  T: syllabus updated
+  C: The mobility lecture was moved to after spring break and the Best of Broadcast lecture inserted.
+
+-
+  D: 2/21
+  T: ps1 solutions annoted with points
+  C: Also, Q7 and Q9 had typos. Fixed now.
+
+-
+  D: 2/15
+  T: Bug fixed in ps1 solutions
+  C: The solution for TCP Tahoe was buggy.  It's fixed.
+
+-
+  D: 2/14
+  T: Problem Set 2 is available
+  C: Check the <a href="http://www.cs.cmu.edu/~dga/15-744/S07/assignments.html">assignments link</a>.
+-
+  D: 2/14
+  T: ns Tutorial Recitation
+  C: Jeff will hold a short tutorial on ns this Friday at 3:00-4:30PM
+     in WeH 5409.
+-
+  D: 2/13
+  T: Link for CSZ'92 fixed
+  C: The CSZ'92 postscript was buggy.  The link now points to a verified good PDF.
+
+-
+  D: 2/7
+  T: Project proposals due 2/14.
+  C: The <a href="project.html">project proposals</a> are due a week from today.
+
+-
+  D: 2/2
+  T: RED paper link updated
+  C: The paper link for RED has been updated.  The postscript was buggy;  the newly linked PDF is happy.
+
+-
+  D: 2/1
+  T: Office hour time selection on discussion site
+  C: Now that the class membership is a bit more stable, there's a post on the discussion site where people should express their preferences for office hour slots, if you have any.  We'll have the actual hours established by Monday.
+
+-
+  D: 1/30
+  T: Problem set 1 small change
+  C: In section E, please draw the THREE RTTs following the loss, not just one.  The problem set has been updated.
+
+-
+  D: 1/29
+  T: Problem set 1 available
+  C: The <a href="http://www.cs.cmu.edu/~dga/15-744/S07/assignments.html">first theory problem set</a> is now online.
+
+-
+  D: 1/28
+  T: 'Reading for Monday: Just a subset of GR'
+  C: For Monday, you do NOT need to read all of GR yet. We\'ll be returning to this paper a bit later. For monday, please read the intro, section 2, skim over 6, and read the conclusion.
+
+-
+  D: 1/26
+  T: Announcements RSS feed now available
+  C: You can now subscribe to the 15-744 announcements as an RSS feed.
+
+-
+  D: 1/22
+  T: Fundamentals Review Recitation
+  C: The recitation for reviewing network fundamentals will be this <strong>Friday, 1/26</strong> from <strong>3-4:30PM</strong> in room <strong>WeH 4615A</strong>. The slides are available <a href="http://www.cs.cmu.edu/~jeffpang/talks/20070126_15744review.ppt">here</a>, and more can be found on last fall's <a href="http://www.cs.cmu.edu/~srini/15-441/F06/syllabus.html">15-441 page</a>.
+

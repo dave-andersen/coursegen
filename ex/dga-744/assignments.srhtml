@@ -1,0 +1,52 @@
+<%= pagetop("15-744 Assignments") %>
+
+<p>There will be two programming projects and four written
+homework assignments.</p>
+
+<table class="assignments">
+<tr>
+<th>Topic</th>
+<th>Assigned</th>
+<th>Due</th>
+<th>Other Info</th>
+<th>Solutions</th>
+</tr>
+
+<tr>
+ <td>Theory 1: <a href="ps_theory1.ps">Congestion, Queueing, Dynamics, BGP</a></td>
+ <td>01/29/2007</td>
+ <td>02/07/2007</td>
+ <td></td>
+ <td><a href="ps_theory1_soln.pdf">Solutions</a></td>
+</tr>
+
+<tr>
+ <td>Tools of the Trade 1:  <a href="ps_ns.html">Simulation with <tt>ns-2</tt> and Routing Table Analysis</a></td>
+ <td>02/14/2007</td>
+ <td>03/05/2007</td>
+ <td></td>
+ <td><a href="ps_tools1_soln.pdf">Solutions</a></td>
+</tr>
+
+<tr>
+ <td>Theory 2: <a href="ps_theory2.pdf">DNS, DHTs, Multihoming, and Ad-Hoc Wireless Networks</a></td>
+ <td>03/26/2007</td>
+ <td>04/04/2007</td>
+ <td></td>
+ <td><a href="ps_theory2_soln.pdf">Solutions</a></td>
+</tr>
+
+<tr>
+ <td>Tools of the Trade 2:  
+<a href="ps_tools2.pdf">Network measurement with <tt>scriptroute and ruby</tt></a></td>
+ <td>04/09/2007</td>
+ <td>04/18/2007</td>
+ <td></td>
+</tr>
+
+</table>
+
+
+<p>All homework is to be done individually.</p>
+
+<%= pagebottom() %>

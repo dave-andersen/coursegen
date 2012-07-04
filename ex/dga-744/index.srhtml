@@ -1,0 +1,134 @@
+<%= pagetop("15-744, Spring 2007:  Computer Networks") %>
+
+<div id="overview">
+<div id="news">
+<h2>Latest Announcements</h2>
+<%
+require 'yaml'
+@ann = YAML::load(File.open("announcements.txt"))
+%>
+
+<dl class="newslist">
+
+<% @ann[0..1].each { |a| %>
+  <dt><%= a["D"] %>:  <%= a["T"] %></dt>
+    <dd><%= a["C"] %></dd>
+<% } %>
+
+</dl>
+
+<p><a href="announcements.html">See all announcements</a>
+<a href="rss2.xml"><img src="xml.gif" border="0">RSS 2.0 feed</a>
+</p>
+</div>
+<div id="overview_main">
+<h2>Overview</h2>
+<p>
+15-744 is a graduate course in computer networks.  The goals are:
+<ul>
+ <li>To understand the state of the art in network protocols, network architecture, and networked systems.</li>
+ <li>To understand how to engage in networking research.</li>
+ <li>To investigate novel ideas in networking through a semester-long research project.</li>
+</ul>
+</p>
+<p>
+The past few years have seen a remarkable growth in the global
+network infrastructure. The Internet has grown from a research
+curiosity to something we all take for granted.
+</p>
+<p>
+How does this network infrastructure work?  What are the design principles
+upon which it is based, and how are those principles applied in practice?
+How can we make the Internet work better today?  We will examine these
+issues and more during the course.
+</p>
+
+<p>
+This course assumes a basic familiarity with networking concepts.
+The course will consist of a reading/lecture/discussion component
+and a project component. The class will cover approximately 50
+research papers on various aspects of computer networking. These
+papers will introduce students to the basic design principles on
+which today's networks are based. In addition, these papers will
+cover recent proposals to improve network performance, functionality
+and scalability. Specific topics that will be covered include:
+LAN/WAN technologies, congestion/flow control, traffic analysis,
+routing, internetworking, multicast, security, and quality of
+service. Students are expected to read papers before the class and
+participate in the discussion during the class.
+</p>
+
+
+<ul>
+<li>Lecture time:  MW 15:00 - 16:20</li>
+<li>Units:  12</li>
+<li>Location:  Wean Hall 4623</li>
+<li><a href="http://great-white.cmcl.cs.cmu.edu:8080/">Paper Discussion Page</a> - please login and create an account.</li>
+</ul>
+</div>
+
+<!-- ugly: needed to prevent the announcements from bleeding over -->
+<hr style="clear: both; visibility: hidden;" />
+</div>
+
+<div id="staff">
+<h2>Course Staff</h2>
+
+<h3>Teaching Assistants</h3>
+<table class="people">
+<tr><th>Name</th><th>Email</th><th>Office</th><th>Tel</th><th>Office Hours</th></tr>
+<tr>
+<td><a href="http://www.cs.cmu.edu/~jeffpang">Jeff Pang</a></td>
+<td><span class="email"><a href="mailto:jeffpang+744@cs.cmu.edu">jeffpang+744@cs.cmu.edu</a></span></td>
+<td>WeH 7203</td>
+<td>268-3621</td>
+<td>Thu 2-3PM (or by appointment)</td>
+</tr>
+
+</table>
+
+<h3>Instructor</h3>
+<table class="people">
+<tr><th>Name</th><th>Email</th><th>Office</th><th>Tel</th><th>Hours</th></tr>
+<tr>
+<td><a href="http://www.cs.cmu.edu/~dga">David Andersen</a></td>
+<td><span class="email">dga AT cs DOT cmu DOT edu</span></td>
+<td>WeH 8206</td>
+<td>268-3064</td>
+<td>Tues 11:00 - 11:59am</td>
+</tr>
+</table>
+
+<h3>Course Secretary</h3>
+<p>
+Barbara Grandillo,  <span class="email">bag AT cs DOT cmu DOT edu</span>, Wean Hall 8018, Tel:  268-7550
+</p>
+</div>
+
+<div id="policies">
+<h2>Course Policies</h2>
+
+<h3>Collaboration</h3>
+
+<p>Students are encouraged to talk to each other, to the course staff,
+or to anyone else about any of the assignments.
+Assistance must be limited to discussion of the problem and
+sketching general approaches to a solution. Each student must write
+out his or her own solutions to the homework.
+</p>
+
+<h3>Late Policy</h3>
+
+<ul>
+  <li>The deadline for any assignment 
+      can be extended with a 10% penalty per day.</li>
+  <li>No deadline can be extended by more than two days.
+   Assignments will <b>NOT</b> 
+   be accepted 48 hours after the due date.</li>
+  <li>The project presentations must be given on the day they
+      are scheduled.</li>
+
+  <li><i>If you are ill</i>:  Contact the instructor and get a medical note.</li>
+</ul>
+
+<%= pagebottom() %>

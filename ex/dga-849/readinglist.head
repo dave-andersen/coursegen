@@ -1,0 +1,8 @@
+<%= pagehead("Reading List") %>
+
+<body id="readinglist">
+<div id="rlint">
+<h1>CS 7260 Reading List</h1>
+
+
+<div id="list">

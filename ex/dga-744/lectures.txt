@@ -1,0 +1,219 @@
+# This file defines the lectures for the class.  The syllabus is
+# automatically generated from this file.
+
+# Date:  [Lecture type]
+#        blank:  normal lecture
+#        noclass [explanation text]
+#        exam    [exam name]
+# I:  Instructor   (overrides the global INSTRUCTOR)
+# T:  Title
+# S:  slides ref (looks in lectures/<name>.{ppt,pdf,ps,html}
+# V:  Video list (links to coursecast)
+# R:  Readings (copied verbatim)
+# N:  Notes (copied verbatim)
+
+CLASS:  15-744 Computer Networks
+CLASS_SHORT:  15-744
+YEAR:  2007
+TERM:  Spring
+INSTRUCTOR:  DGA
+LOCATION:  WeH 4623
+START_TIME: '15:00'
+END_TIME: '16:20'
+COURSE_URL: http://www.cs.cmu.edu/~dga/15-744/S07/
+READINGBASE:  http://www.cs.cmu.edu/~dga/15-744/S07/papers/
+SHOW_LECNUM: no
+SHOW_INSTRUCTOR: no
+ALTERNATE: row
+HEADSPAN: 4
+
+LECTURES:
+
+- 01/15:
+        T: Martin Luther King Jr. Day
+        type: noclass
+
+- 'Part 1:  Internetworking'
+
+- 1/17:
+        T: 'Intro:  History and context and packet switching.'
+        S: 01-intro
+
+- 01/22:
+        T: 'Internetworking:  Architectural principles, names, addresses'
+        RB: Design::darpa-internet.pdf 
+        S: 02-design
+
+- 01/24:
+        T: A best effort world, placement of function (reliability, security, etc.)
+        RB: Saltzer84::saltzer-e2e.pdf Architecture::alf.pdf
+        S: 03-besteffort
+        N: |
+              Read the End-to-End Arguments paper (Saltzer84)<br /> if you
+              haven't seen it before.
+
+- 01/26:
+        T:  Recitation - background material review (Jeff)
+        type: recitation
+        N:  Wean 4615A, 3:00 - 4:30pm.
+        S: r01-review
+
+- 01/29:
+        T: Interdomain Routing
+        RB: GR::gao-rexford.pdf
+        N:  Only read sections 1, 3, skim 6, and 7 of GR for today
+        S: 04-interdomain
+
+- 'Part 2:  Resource Management'
+
+- 01/31:
+        T: End-to-End Congestion Control
+        RB: CJ89::chiujain.pdf VJ88::congavoid.pdf
+        S: 05-congctl
+        N: For more examples of Reno/NewReno/etc., see the <a href="http://www.cs.cmu.edu/~srini/15-744/F04/lectures/04-tcpintro.ppt">ppt slides from 744 in 2004</a>
+
+- 02/05:
+        T: No lecture.  Meetings about projects.
+
+- 02/07:
+        T: Router congestion control
+        RB: RED::red.pdf XCP::xcp.pdf
+        S: 06-router-cong
+
+- 02/12:
+        T: Fair Queueing
+        RB: WFQ::fq.pdf CSFQ::csfq.pdf
+        S: 07-fairqueue
+
+- 02/14:
+        T: Quality of Service
+        RB: She95::beyondbesteffort.pdf CSZ92::csz.pdf
+        N: Project proposals due
+        S: 08-qos
+
+- 02/16:
+        T: ns-2 and tools (Jeff)
+        type: recitation
+        N: Wean Hall 5409, 3:00-4:30PM
+
+- 02/19:
+        T: Router Design
+        S: 09-bfr
+        RB: MGR::50gb.ps iSLIP::islip-ton.pdf
+        N: 'Optional reading: <a href="papers/D+97.pdf">D+97</a> (the "Lulea" algorithm)'
+
+- 'Part 3:  Wireless'
+
+- 02/21:
+        T: Wireless Networks overview and architectures
+        RB: Macaw::macaw.pdf
+        S: 10-wireless1
+
+- 02/26:
+        T: Wireless Networks in the real world
+        RB: Chaotic::http://www.cs.cmu.edu/afs/cs/project/cmcl/archive/2005/mobicomchaotic.pdf
+        S: 11-wireless2
+
+- 02/28:
+        T: Quiz 1
+        type: exam
+
+- 03/05:
+        T: Routing in ad-hoc networks
+        S: 12-adhoc
+        RB: ETX::decouto-etx2003.pdf MANET1::broch-mobicom98.ps MANET2::royer-adhoc1999.pdf
+        N: 'Second MANET reading is mostly to flesh out the picture<br />Related:  <a href="http://pdos.csail.mit.edu/roofnet/doku.php?id=publications">Roofnet Publications</a> (In particular, Mobicom2005, Sigcomm2005, Sigcomm2004 papers)'
+
+- 03/07:
+        T: Making the Best of Broadcast
+        RB: ExOR::biswas-exor2005.pdf XorsInTheAir::xor.pdf
+        N:  'ExOR SIGCOMM talk Slides: <a href="http://pdos.lcs.mit.edu/~biswas/exor-sigcomm.ppt">ppt</a>, <a href="http://pdos.lcs.mit.edu/~biswas/exor-sigcomm.pdf">PDF</a>.'
+        S: 13-broadcast
+
+- 03/12:
+        T: Spring Break
+        type: noclass
+
+- 03/14:
+        T: Spring Break
+        type: noclass
+
+- 03/19:
+        T: Mobility
+        S: 14-mobility
+        RB: MobileIP::ieee-mobileip98.pdf  TCPMigrate::snoeren-e2emobility.pdf
+
+- 'Part 4: Applications, Naming, and Overlays'
+
+- 03/21:
+        T: Overlay Networks 1
+        RB: RON::http://www.cs.cmu.edu/~dga/papers/ron-sosp2001.pdf GIA::p407-chawathe.pdf
+        N: 'No slides.  An <a href="http://www.reviews.com/hottopic/hottopic_essay_01.cfm">overview of overlay networks</a> and <a href="http://www.cs.cmu.edu/~srini/15-441/S05/lectures/24-p2p.pdf">15-441 notes on p2p</a>.'
+
+- 03/26:
+        T: Distributed Hash Tables
+        RB: DHTSurvey::p43-balakrishnan.pdf Chord::p12-stoica.pdf
+        S: 16-dht
+        N: 'See also <a href="http://www.mpi-sws.mpg.de/~gummadi/papers/p1101-gummadi.pdf">DHT Geometry Comparison</a> paper.'
+
+- 03/28:
+        T: No class - project meetings
+
+- 04/02:
+        T: DNS and the Web
+        RB: DNS::dns.pdf Coral::coral-nsdi04.pdf
+        S: 17-dnsweb
+        N: 'Mike Freedman, the author of Coral, will be giving a job talk here on Monday the 9th, if people are interested.<br />For more DNS, see <a href="papers/dns-ton2002.pdf">DNS Performance and the Effectiveness of Caching</a>'
+
+- 04/04:
+        T: What's in a name?  Names, identifiers, and network architecture
+        RB: DOA::doa-osdi04.pdf i3::i3-sigcomm02.pdf
+        S: 18-naming
+
+- 'Part 5:  Measurement, Mining, (and Multicast...)'
+
+- 04/09:
+        T: Measurement
+        RB: Paxson:Measurement::meas-strategies-imc04.pdf
+        S: 19-measurement
+
+# dga is at NSDI on 4/11
+- 04/11:
+        T: 'Guest Lecture - Christos Faloutsos:  Data Mining Tools for Large Graphs'
+        N: Networks are filled with interesting graphs - the Web, the AS graph, the router topology, etc.  This lecture will examine some techniques for analyzing them to extract meaningful information.
+        RB: RatioRules::http://www.cs.cmu.edu/%7Echristos/PUBLICATIONS/ratioRules.pdf TrafficBehavior::http://www.cs.cmu.edu/%7Echristos/PUBLICATIONS/performance02.pdf
+        S: 20-mining
+
+
+- 04/16:
+        T: Multicast 
+        N: Presented by Jeff
+        RB: SRM::srm.ps
+        S: 21-multicast
+
+- 'Part 6:  Security'
+
+- 04/18:
+        T: 'Security:  DDoS and Traceback'
+        RB:  Traceback::p1-snoeren.pdf TVA::paper-YanWet.pdf
+        S: 22-ddos
+
+- 04/23:
+        T: 'Security:  Worms'
+        RB:  OwningTheInternet::http://www.icir.org/vern/papers/cdc-usenix-sec02/  Fingerprinting::fingerprinting-osdi04.pdf
+
+- 04/25:
+        T: Second In-Class Exam
+        type: exam
+
+- 04/30:
+        T: Project Presentations 1
+
+
+- 05/02:
+        T: Project Presentations 2
+
+- 05/14:
+        T: Project writeups due
+        type: exam
+

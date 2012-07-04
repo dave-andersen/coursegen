@@ -1,0 +1,11 @@
+
+</div>
+</div>
+
+<p class="footnote">
+  <a href=".">Home</a>
+  <a href="readinglist.html">Reading</a>
+  <a href="syllabus.html">Syllabus</a>
+</p>
+
+<%= pagebottom() %>

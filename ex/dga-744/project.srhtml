@@ -1,0 +1,170 @@
+<%= pagetop("15-744 Semester Project") %>
+
+<p>Projects should be done in groups of three.
+</p>
+<ul>
+ <li>Project proposals are due on 02/14.  These should be a few pages
+that succinctly describe what you plan to work on, a rough timeline,
+and a bit of the related work in the area.
+</li>
+<li>Project writeups are due 5/14 at 5pm.
+</li>
+</ul>
+
+<h2>Project Presentation Schedule</h2>
+<% groups = [
+["Offline Web Caching", "Mon"],
+["Wireless Caching in DOT", "Mon"],
+["Claytronics Robustness", "Mon"],
+["Path Cost Service", "Wed"],
+["ACL Minimization", "Wed"],
+["Joost Analysis",  "Wed"],
+["Mateus et al.", "Wed"]
+] %>
+<table>
+<tr><th>Group/Topic</th><th>Day</th></tr>
+<% groups.each { |g| %>
+<tr><td><%= g[0] %></td><td><%= g[1] %></td></tr>
+<% } %>
+</table>
+
+
+
+<h2>Project Management</h2>
+
+<ul>
+<li><a href="ideas/index.html">Project ideas</a> (CMU only)</li>
+</ul>
+
+<p>
+You should strongly consider using either
+ <a href="http://svnbook.red-bean.com/">Subversion</a> or
+ <a href="http://cvsbook.red-bean.com/">CVS</a>
+ to perform source code control for your project and the paper
+ you write describing it.  I suggest Subversion.
+ </p>
+
+ <p>I also strongly suggest writing your course project report using
+  <a
+  href="http://www.amazon.com/exec/obidos/tg/detail/-/0201529831/104-3940833-1361514?v=glance">LaTeX</a>.
+  It is the de-facto tool in which most CS research papers are written.
+  While it has a bit of start up cost, it's <i>much</i> easier to
+  collaboratively write complex research papers using LaTeX than using
+  word.</p>
+
+<h2>Writing Papers</h2>
+
+
+<ul>
+<li><a href="sample.tar.gz">Sample LaTeX paper (tar.gz)</a></li>
+<li><a href="writing-papers.ps">An Evaluation of the Ninth SOSP Submissions - or
+ - How (and How Not) to Write a Good Systems Paper</a> 
+    by Roy Levin and David D. Redell</li>
+<li><a href="http://www-2.cs.cmu.edu/afs/cs.cmu.edu/user/mleone/web/how-to.html"
+>Collected resources about writing and research</a>
+</ul>
+
+
+<h2>Simulation</h2>
+
+<p>The most popular network simulators are <a
+href="http://www.isi.edu/nsnam/ns/">ns-2</a> and <a
+href="http://www.opnet.com/products/networkr&amp;d/home.html">Opnet</a>.
+ns-2 is free, and CSD has some licenses for Opnet.  </p>
+<ul>
+<li><a href="dave-ns-notes.ps">Dave's ns tutorial (postscript)</a>
+<li><a href="http://nms.csail.mit.edu/6.829-f05/old-tutorials/tutorial.ppt.gz">MIT 6.899 ns tutorial slides</a>, <a href="http://nms.csail.mit.edu/6.829-f05/old-tutorials/ns-tutorial.ppt">Xiaowei Yang's ns tutorial (ppt)</a>, <a href="http://nms.csail.mit.edu/6.829-f05/old-tutorials/t2-ns.html">Todd Nightingale's ns tutorial</a>.
+<li><a href="http://hegel.ittc.ukans.edu/topics/tcltk/index.html">Get 
+started with Tcl/Tk </a></li>
+
+<li><a href="http://dev.scriptics.com/resource/doc/manual/">Tcl/Tk manual</a></li>
+<li><a href="http://www.undergrad.math.uwaterloo.ca/~cs488/OTcl/doc/tutorial.html">Get started with OTcl</a></li>
+<li><a href="http://www.isi.edu/nsnam/ns/tutorial/index.html">ns/nam tutorial</a></li>
+</ul>
+
+<h2>Testbeds and Emulation</h2>
+<h3>Emulab</h3>
+<p><a href="http://www.emulab.net/">Emulab</a> is a network emulation environment
+at the University of Utah.  It provides racks of machines and programmable
+switches that can be configured to form mostly-arbitrary network topologies,
+with controllable delay and loss between nodes.  It's a great way to test
+real programs in repeatable conditions or at scales that you can't get on
+your own.
+<p>
+Emulab also provides a set of wireless nodes that you can control,
+located around their building.  They also have an experimental mobile
+robot testbed that could make for fun projects (the robots are designed
+to move computers and radios around so that you can do repeatable experiments
+involving mobility).
+</p>
+<ul>
+<li>If you wish to use Emulab for your project, you should <a href="https:/
+/www.emulab.net/joinproject.php3?target_pid=cmu849">join our class emulab
+project</a>.</li>
+</ul>
+
+<h3>The RON Testbed</h3>
+The RON testbed is a 37-node distributed Internet testbed.  The nodes 
+are mostly US centric, but some are located around the globe.
+The machines can be used for network measurements or for evaluating
+your projects.  They're managed through Emulab.
+The RON testbed is similar to, but smaller than...
+
+<h3>Planetlab</h3>
+<a href="http://www.planet-lab.org/">PlanetLab</a> is a large-scale,
+distributed collection of machines that can be used for experiments
+and measurements.  It has about 594 nodes scattered over 282 sites.
+The machines run something linux-ish that you can login to and
+run programs, and there exist a variety of utilities for automatically
+distributing software to the nodes, running programs, and so on.
+<p>
+You must sign up to use a PlanetLab account.  Please only sign up if
+you're going to use the account, since it imposes some management
+overhead on people not involved with the course.
+
+<h3>Wireless Nodes</h3>
+<p>
+
+Dave and some of the other faculty have a handful of various wireless
+nodes, cards, old laptops, etc., available that you may be able to use
+for your projects.
+</p>
+
+<h3>moteLab</h3>
+<p>
+<a href="http://motelab.eecs.harvard.edu/">moteLab</a> is a wireless sensor
+network deployed in the CS building at Harvard.  It has 30 sensor
+motes that users can upload system images to, collect data from, etc.
+To use moteLab, you'll need to send them an email (listed on their
+web page).  Please CC: dga on the mail.
+</p>
+
+<h3>MistLab</h3>
+<p>
+<a href="http://mistlab.csail.mit.edu">Mistlab</a>
+ is a wireless testbed with 60 Mica2/Cricket nodes
+(sensor boards, much like the motes in moteLab) distributed over the
+9th floor in the Stata center at
+MIT's Computer Science and AI Lab.  For access, see their web
+page and send them an email, and please CC: dga on the mail.
+</p>
+
+<h2>Routing</h2>
+<ul>
+ <li><a href="http://pdos.csail.mit.edu/click/">The Click Modular Router</a></li>
+ <li><a href="http://www.xorp.org/">XORP</a> the eXtensible Open Router Platform</a></li>
+ <li><a href="http://www.quagga.net/">Quagga</a> - an open source routing suite</a></li>
+</ul>
+
+<h2>Measurement</h2>
+<ul>
+ <li>Scriptroute (note: runs well on planetlab and the RON testbed)</li>
+</ul>
+ 
+<h2>Analysis</h2>
+<ul>
+  <li>Books:  Raj Jain, the Art of Computer Systems Performance Analysis - a very good overview of lots of mathetmatical techniques and queueing bits, aimed at a systems audience</li>
+</ul>
+
+
+<%= pagebottom() %>

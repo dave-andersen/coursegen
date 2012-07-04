@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html 
+ PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xml:lang="en" lang="en">
+
+<head>
+<title>Syllabus</title>
+<link rel="stylesheet" type="text/css" href="style.css" />
+</head>
+
+<body id="syllabus">
+<div id="syllint">
+<h1>CS 7260: Internetworking Architectures and Protocols</h1>
+
+
+<div id="objectives">
+  <h2>Objectives<a name="Objectives"></a></h2>
+
+  <p>
+  This project-based course will explore research topics in
+  computer networking, prmarily at the IP layer and above.  You will
+  gain exposure to burgeoning areas of computer networking and learn how
+  to use the tools commonly used for networking research today.  
+  </p>
+
+</div>
+
+
+<div id="textbooks">
+  <h2>Textbooks<a name="Textbooks"></a></h2>
+
+  <p>You will be expected to read 2-3 papers a week. (<a href="readinglist.html">Reading List</a>).<br />
+
+  There are no required textbooks for the course.  </p>
+
+</div>
+
+<div id="pregrade"> <div id="Prerequisites"> 
+<h2>Prerequisites</h2>
+<p> This class is appropriate for graduate students with
+previous background in networking.  Although it is listed as an official
+prerequisite, CS 6250 will be helpful, but is not
+required.  Some familiarity with both network programming and
+scripting languages (<i>e.g.</i>, Perl, Ruby) will be helpful.  </p>
+</div>
+
+<div id="Grading">
+<h2>Grading</h2>
+<p>
+Grading will be based on three problem sets, two quizzes, and a
+semester-long project with a presentation and writeup.
+</p>
+<ul>
+<li> 5% Participation</li>
+<li>15% Problem Sets</li>
+<li>30% Quizzes</li>
+<li>50% project</li>
+</ul>
+</div>
+</div>
+
+<div id="Schedule">
+  <h2>Schedule<a name="Schedule"></a></h2>
+  <p>Papers will not be handed out in class.  <b>Please print the readings
+  and read them before class.</b></p>
+
+<table>
+  <tr>
+   <th>Lecture</th>
+   <th>Date</th>
+   <th>Topics</th>
+   <th>Notes/Resources</th>
+   <th>Preparation</th>
+ </tr>
+

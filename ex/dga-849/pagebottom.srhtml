@@ -1,0 +1,5 @@
+<hr />
+<p class="lastupdated">Last updated: <%= Time.now %>
+ [<a href="http://validator.w3.org/check?uri=referer">validate xhtml</a>]</p>
+</body>
+</html>

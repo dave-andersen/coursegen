@@ -1,0 +1,41 @@
+<%= pagetop("15-849, Fall 2005:  Networking in Challenging Environments") %>
+
+<ul>
+<li>Instructor:  <a href="http://www.cs.cmu.edu/~dga/">David Andersen</a></li>
+<li>Time:  MW 1:30 - 2:50</li>
+<li>Location:  Wean Hall 5409</li>
+<li>Units:  12</li>
+<li>Enrollment is limited to a maximum of 16 students.</li>
+<li>The class is open to SCS Ph.D. students.  
+    Others may be admitted by permission of the instructor.</li>
+</ul>
+
+<p>
+This class is a reading and project-based class examining and
+developing techniques for effective networking in the face of numerous
+challenges:  high packet loss, frequent interruptions, mobility, high
+latency, and unpredictable conditions.  These environments are present
+in a variety of modern-day environments:  wireless and satellite
+connectivity, mobile users, ad-hoc networks, and in underserved
+rural areas and developing nations.  The class will first examine how
+traditional protocols perform (or under-perform) in these environments.
+Next, it will examine techniques such as the use of store and forward
+routing, multipath forwarding and encoding methods to provide effective
+service.
+</p>
+
+<h2><a href="syllabus.html">Syllabus</a></h2>
+<ul>
+  <li><a href="papers/">Reading List</a></li>
+  <li>(Note that the syllabus is still tentative...)</li>
+</ul>
+
+<h2>Projects</h2>
+<ul>
+  <li><a href="resources.html">Class Resources</a>
+For things like nodes to run your projects on, etc.</li>
+  <li><a href="ideas/ideas.html">Project Ideas</a> (CMU only)</li>
+</ul>
+
+</body>
+</html>

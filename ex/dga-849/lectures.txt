@@ -1,0 +1,168 @@
+# This file defines the lectures for the class.  The syllabus is
+# automatically generated from this file.
+
+# Date:  [Lecture type]
+#        blank:  normal lecture
+#        noclass [explanation text]
+#        exam    [exam name]
+# I:  Instructor   (overrides the global INSTRUCTOR)
+# T:  Title
+# S:  slides ref (looks in lectures/<name>.{ppt,pdf,ps,html}
+# V:  Video list (links to coursecast)
+# R:  Readings (copied verbatim)
+# N:  Notes (copied verbatim)
+
+CLASS:  15-849D Networking in Challenging Environments
+CLASS_SHORT:  15-849D
+YEAR:  2005
+TERM:  Fall
+INSTRUCTOR:  DGA
+VIDEOBASE:   http://ilserver.sp.cs.cmu.edu/view.pl?id=VIDEOID
+LOCATION:  WeH 5409
+START_TIME: '13:30'
+END_TIME: '14:50'
+READINGBASE:  http://www-2.cs.cmu.edu/~dga/15-849/papers/
+SHOW_LECNUM: no
+SHOW_INSTRUCTOR: yes
+
+LECTURES:
+- 9/12:
+        T: 'Introduction:  Internet Architecture, Scenarios'
+        N:  Please read these papers <b>before</b> class.
+        RB: Saltzer84::Saltzer84.pdf
+        S: 01-assumptions
+
+- 09/14:
+        T: 802.11
+        N:  'See Stalings ch14 for more details.<br />Bg: <a href="http://computer.howstuffworks.com/wireless-network.htm">How WiFi Works</a>.  <a href="http://archive.gamespy.com/hardware/june03/wireless/index.shtml">GameSpy 802.11 Primer</a>.  <br /><a href="http://bnrg.eecs.berkeley.edu/~randy/Courses/CS294.S96/Fundamentals.pdf">Fundamentals of Wireless</a> from Randy Katz''s 1996 course.<br />This class may spill over.'
+        RL:  macaw bhagwat-hotnets2003
+        S: 02-wireless
+
+- 9/19:
+        T: Ad Hoc and Community Wireless 1
+        RL:  roofnet-mobicom2005 vandrunen-freenix2003
+        N: <b>1st round presentation sign-ups due</b> 
+        I: danwent svp
+
+- 09/21:
+        T: Sensor Networks Scenarios
+        RL: gdi-ewsn04 zebranet-mobisys04
+        I: runting, asangpet
+
+- 09/26:
+        T: TCP over Wireless
+        RL: balakrishnan-wireless1997 eddy-tcploss
+        I: Austin Mckinley, Amit Malani
+
+- 09/28:
+        T: Ad Hoc Routing Protocols
+        RL: royer-adhoc1999 karp-gpsr2000
+        I: Vitaliy Gleyzer, Shravan Rayanchu
+
+- 10/03:
+        T: Ad Hoc 2
+        RL:  decouto-etx2003 draves-sigcomm2004
+        I: Abhijit Deshmukh, Sai Vinyak
+
+- 10/05:
+        T: Mobility and IP
+        RL: snoeren-e2emobility ieee-mobileip98
+        I: james.hendricks mdunlop
+
+- 10/10:
+        T: Mobility 2
+        RL: maltz-msocks1998 zhuang-mobility2003
+        I: Shishir Moudgal, Akshay Kawale
+        N: <b>Project proposals due</b>
+
+- 10/12:
+        T: 'Store and Forward 1:  FidoNet and UUCP'
+        R: '<a href="store_and_forward.html">Store and Forward Intro</a><br /><a href="papers/pathalias.pdf">Pathalias UUCP paper</a> (read for UUCP info, skim details of mapping).<br /><a href="http://en.wikipedia.org/wiki/Fidonet">Wikipedia FidoNet Article</a>, <a href="http://www.writebynight.com/fidonet.html">A FidoNet Primer</a>.<br /> Further reading:  <a href="http://www.ftsc.org/docs/fetch.php?doc=FTS-0001.016">FidoNet Technical Standard Rev16</a>.'
+
+- 10/17:
+        T: 'Store and Forward 2:  The Modern Days'
+        RL: jain-dtn2004 nain-wiopt03
+        N: <b>Project reviews due</b>
+        I: Rahul Mangharam
+
+- 10/19:
+        T: 'Disconnected Operation: filesystems'
+        RL:  kistler-coda1992 speculator-sosp2005
+        N: ' Suggested background for speculator:  <a href="papers/nightingale-bluefs2004-abstract.html">bluefs</a><br />'
+        I: Akshay Kawale, Shishir Moudgal
+
+- 10/24:
+        I:  'Srini Seshan<br />Students:  Rahul, Akkarit Sangpetch'
+        T: 'Sensor Networks:  Solutions'
+        RL:  diffusion2000 madden-osdi2002 ght-wsna2002
+        N:  dga out of town this week.
+
+- 10/26:
+        T: Multiple Radios / Antennas
+        N:  'Lecture background:  MIMO'
+        RL: miu-mobicom2005 biswas-exor2005
+        I: ' Peter Steenkiste, guest lecturer.<br />Students:  Austin McKinley, Runting Shi'
+
+- 10/31:
+        T: Internet Availability
+        RL: ron-sosp2001 gummadi-sosr2004
+        I:  amit  jvh
+
+- 11/02:
+        T: Multihoming
+        RL:  akella-sigcomm2004 monet-nsdi2005
+        I: danwent svp
+
+- 11/07:
+        T: Project Progress Reviews
+        N: Mid-semester project status presentations.  8 minutes per group.  See project logistics for details.
+        type: exam
+
+- 11/09:
+        T: Peer to Peer
+        RL: gummadi-sigcomm2003 li-infocom2005
+        N:  This lecture assumes some basic familiarity with DHTs.  Background would include the original Chord paper (from <a href="http://www.project-iris.net/">the project iris web site</a>).
+        I: Ginger Perng
+
+- 11/14:
+        T: 'Availability: Denial of Service 1'
+        RL: staniford-usenixsec2002 Singh-osdi2004
+        I: Ginger Perng, Matt Dunlop
+
+- 11/16:
+        T: 'Availability:  Denial of Service 2'
+        RL: Snoeren-traceback02  Yang-sigcomm2005
+        I:  Sharan R., Vitaliy G.
+
+- 11/21:
+        T: Best of HotNets 2005
+        I: Sai Vinyak, Abhijit Deshmukh
+        RL:  ballani-hotnets2005 handley-hotnets2005 agarwal-hotnets2005
+
+- 11/23: 
+        type: noclass
+        T:  Thanksgiving Holiday
+        N: Gobble gobble
+
+- 11/28:
+        T: 'Local research:  Car networking @ CMU'
+        I: Rahul Mangharam
+
+- 11/30:
+        T: Energy
+        RL: flinn-sosp1999 krashinsky-mobicom2002
+
+- 12/05:
+        I:  class
+        T:  Project presentations.
+        type: exam
+
+- 12/07:
+        I:  class
+        T:  Last day of class.  Project presentations.
+        type: exam
+
+- 12/12:
+        I:  'n/a'
+        T:  'Project writeups due by 3pm in Dave''s admin''s office (Wean 8018)'
+        type: exam

@@ -1,0 +1,82 @@
+<%= pagehead("Syllabus") %>
+
+<body id="syllabus">
+<div id="syllint">
+<h1>15-849 Syllabus:  Networking in Challenging Environments</h1>
+<div id="textbooks">
+  <h2>Textbooks<a name="Textbooks"></a></h2>
+
+  <p>There are no required textbooks for the course.  If you don't feel
+  like you're up on the background for the course, a few texts you might
+  want to use are:</p>
+ 
+   <ul>
+     <li>General networking:  <b>Computer Networks: A Systems Approach</b>, third edition, by 
+     Larry Peterson and Bruce Davie. The library has a few copies of
+     this book.</li>
+
+     <li>Wireless:  <b>Wireless Communications &amp;
+     Networks</b> by William Stallings, 1st Ed., Prentice Hall, 2002.
+     This book focuses more on physical and lower layer issues, and
+     provides a reasonable background for those subjects.</li>
+  </ul>
+
+  <p>Some good references for the programming and protocols side of things are:
+  </p>
+
+  <ul>
+    <li><b>TCP/IP Illustrated, Volume 1:  The Protocols </b> by 
+      W. Richard Stevens. </li>
+    <li><b>Unix Network Programming:
+    Networking APIs: Sockets and XTI (Volume 1)</b> by W. Richard Stevens.</li>
+  </ul>
+
+  <p>Finally, if you're not already familiar with them, this course 
+  would be a grand time to start familiarizing yourself with 
+  <a href="http://svnbook.red-bean.com/">Subversion</a> or 
+  <a href="http://cvsbook.red-bean.com/">CVS</a> and with 
+  <a href="http://www.amazon.com/exec/obidos/tg/detail/-/0201529831/104-3940833-1361514?v=glance">LaTeX</a>.</p>
+</div>
+
+<div id="pregrade">
+<div id="Prerequisites">
+<h2>Prerequisites</h2>
+<p>
+This class is appropriate for first-year graduate students with a strong
+background in networks, or for students who have taken the graduate
+networking class or equivalent.  We will assume familiarity with the
+general operation of routing protocols, TCP, and application protocols
+such as HTTP.
+</p>
+</div>
+
+<div id="Grading">
+<h2>Grading</h2>
+<p>
+Grading will be based on participation, paper presentations, and a
+semester-long project.
+</p>
+<ul>
+<li>30% discussion leading (3 x 10%).</li>
+<li>10% participation / attendance</li>
+<li>60% project</li>
+</ul>
+</div>
+</div>
+
+<div id="Schedule">
+  <h2>Schedule<a name="Schedule"></a></h2>
+  <p>Also available as an <a href="class.ics">ical file</a> that you can subscribe to.</p>
+  <p>Papers will not be handed out in class.  Please print the readings
+  and read them before class.  After the first week, we will have
+  signups for students to present the papers.</p>
+
+<table>
+  <tr>
+   <th>Date</th>
+   <th>Instructor</th>
+   <th>Topics</th>
+   <th>Notes</th>
+   <th>Readings</th>
+ </tr>
+

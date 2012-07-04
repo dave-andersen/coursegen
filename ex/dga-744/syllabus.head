@@ -1,0 +1,61 @@
+<%= pagetop("15-744:  Computer Networks Syllabus") %>
+
+<!-- Note:  To edit this part of the syllabus, edit syllabus.head,
+     not the generated syllabus.srhtml or syllabus.html -->
+
+<div id="textbooks">
+  <h2>Textbooks<a name="Textbooks"></a></h2>
+  <p>There are no official texts for the course.  As background, we suggest
+     several texts:</p>
+  <ul>
+     <li><b>Computer Networks: A Systems Approach</b>, third edition, by 
+     Larry Peterson and Bruce Davie.
+     It is available in the CMU Bookstore. Covers background networking
+     material that we assume students will already be familiar with.</li>
+     <li><b>Computer Networking: A Top-Down Approach Featuring the Internet</b>, 3rd edition, by James F. Kurose and Keith W. Ross.  Covers similar material
+    to Peterson and Davie.</li>
+    <li><b>TCP/IP Illustrated, Volume 1:  The Protocols </b> by 
+      W. Richard Stevens. </li>
+    <li><b>Unix Network Programming:
+    Networking APIs: Sockets and XTI (Volume 1)</b> by W. Richard Stevens.</li>
+    <li><b>Advanced Programming in the Unix Environment</b> by W. Richard Stevens, Addison-Wesley, 1993.</li>
+  </ul>
+
+</div>
+
+<div id="Grading">
+<h2>Grading</h2>
+<p>Your final grade for the course will be based on the following weights:</p>
+<ul>
+  <li>40% Project</li>
+  <li>30% Quizzes</li>
+  <li>25% Homework</li>
+  <li>5% Class Participation</li>
+</ul>
+
+<p>The quizzes will be in-class, one near midterm and one near the end of the
+semester.</p>
+
+<p>
+The project in 15-744 is an open-ended research project, done in
+groups of two.  The project requires a proposal, a project status
+report, and a final report (both written and presented). 
+</p>
+
+<p>There will be a few problem sets assigned during the term that will constitute 25% of your grade.  Problem sets will be a mix of theory and hands-on
+programming assignments.</p>
+
+</div>
+
+<div id="Schedule">
+  <h2>Schedule<a name="Schedule"></a></h2>
+  <p>Also available as an <a href="15-744-Spring2007.ics">ical file</a> 
+that you can subscribe to.  </p>
+
+<table class="schedule">
+  <tr>
+   <th>Date</th>
+   <th>Topics</th>
+   <th>Notes</th>
+   <th>Readings</th>
+ </tr>

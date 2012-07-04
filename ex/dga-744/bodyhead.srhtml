@@ -1,0 +1,13 @@
+<body>
+<h1><%= @page.title %></h1>
+<div id="topnavbar">
+<ul class="topnavlist">
+<li><a href="index.html">15-744 Home</a></li>
+<li><a href="syllabus.html">Syllabus</a></li>
+<li><a href="assignments.html">Assignments</a></li>
+<li><a href="exams.html">Exams</a></li>
+<li><a href="announcements.html">Announcements</a></li>
+<li><a href="project.html">Project</a></li>
+</ul>
+</div>
+

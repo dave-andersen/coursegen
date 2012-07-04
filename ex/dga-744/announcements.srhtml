@@ -1,0 +1,19 @@
+<%= pagetop("15-744 Announcements") %>
+
+<%
+require 'yaml'
+@ann = YAML::load(File.open("announcements.txt"))
+%>
+
+<p>Announcements will be posted here.</p>
+
+<ul class="announcements">
+
+<% @ann.each { |a| %>
+  <li><b><%= a["D"] %>:  <%= a["T"] %></b> <br />
+    <%= a["C"] %><br /></li>
+<% } %>
+
+</ul>
+
+<%= pagebottom() %>

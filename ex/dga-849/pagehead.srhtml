@@ -1,0 +1,9 @@
+<%= inc("doctype.html") %>
+<html xml:lang="en" lang="en">
+<head>
+<title><%= @page.title %></title>
+<link rel="stylesheet" type="text/css" href="style.css" />
+<meta http-equiv="Content-Script-Type" content="text/javascript" />
+<script type="text/javascript" src="/util.js">
+</script>
+</head>
